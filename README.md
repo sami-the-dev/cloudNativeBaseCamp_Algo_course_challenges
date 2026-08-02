@@ -20,24 +20,10 @@ A collection of algorithmic solutions, flowchart diagrams, and practice exercise
 
 ## 🚀 Challenges & Solutions
 
-### 1. Circle Area Calculation (`circle_area/`)
-
-- **Description**: Visual flowchart illustrating the logic for computing the area of a circle given its radius using the formula $A = \pi \cdot r^2$.
-- **Artifacts**:
-  - [`circle_area_flow_chart.png`](./circle_area/circle_area_flow_chart.png): Visual flowchart diagram.
-
----
-
-### 2. Standard Deviation (`standard_deviation/`)
-
-- **Description**: Algorithmic implementation and flowchart design for computing the population standard deviation ($\sigma$) of $n$ numbers.
-- **Formulas**:
-  1. Mean ($\mu$): $\mu = \frac{1}{n} \sum_{i=1}^{n} x_i$
-  2. Variance ($\sigma^2$): $\sigma^2 = \frac{1}{n} \sum_{i=1}^{n} (x_i - \mu)^2$
-  3. Standard Deviation ($\sigma$): $\sigma = \sqrt{\sigma^2}$
-- **Artifacts**:
-  - [`standard_deviation_flow_chart.js`](./standard_deviation/standard_deviation_flow_chart.js): JavaScript script calculating average, variance, and standard deviation.
-  - [`standard_deviation_flow_chart.png`](./standard_deviation/standard_deviation_flow_chart.png): Flowchart representation of the algorithm logic.
+| # | Challenge | Description | Formula / Logic | Artifacts & Links | Status |
+|:-:|---|---|---|---|:-:|
+| 1 | **Circle Area Calculation** | Visual flowchart illustrating the logic for computing the area of a circle given its radius. | $A = \pi \cdot r^2$ | 🖼️ [Flowchart](./circle_area/circle_area_flow_chart.png) | ✅ Done |
+| 2 | **Standard Deviation** | Algorithmic implementation and flowchart design for computing population standard deviation ($\sigma$) of $n$ numbers. | $\mu = \frac{1}{n}\sum x_i$<br>$\sigma = \sqrt{\frac{1}{n}\sum (x_i - \mu)^2}$ | 📄 [JS Script](./standard_deviation/standard_deviation_flow_chart.js)<br>🖼️ [Flowchart](./standard_deviation/standard_deviation_flow_chart.png) | ✅ Done |
 
 ---
 
